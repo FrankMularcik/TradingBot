@@ -1,3 +1,5 @@
+#This program imports a file with strategy classes and a file with price data
+#Then it runs cerebro and backtrader which backtests a portfolio based on the strategy and data given
 import backtrader as bt
 import datetime 
 import strategies
